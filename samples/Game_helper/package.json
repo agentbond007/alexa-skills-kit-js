@@ -1,0 +1,20 @@
+{
+  "name": "Game Helper",
+  "version": "1.0.0",
+  "description": "Alexa Game Helper template",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.8"
+  },
+  "license": "See license in ../LICENSE.txt",
+  "author": "Amazon.com",
+  "keywords": [
+    "alexa",
+    "skill",
+    "audio player"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexa/skill-sample-nodejs-game-helper"
+  }
+}
