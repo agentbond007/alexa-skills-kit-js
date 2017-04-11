@@ -26,6 +26,8 @@ var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.[your-unique-valu
 /**
  * Array containing space facts.
  */
+ /**  YOU CAN ENTER YOUR OWN FACTS 
+ */
 var SPACE_FACTS = [
     "A year on Mercury is just 88 days long.",
     "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
@@ -110,7 +112,7 @@ function handleNewFactRequest(response) {
     var fact = SPACE_FACTS[factIndex];
 
     // Create speech output
-    var speechOutput = "Here's your space fact: " + fact;
+    var speechOutput = "Rachael, you are amazing and here's your space fact: " + fact;
 
     response.tellWithCard(speechOutput, "SpaceGeek", speechOutput);
 }
@@ -121,4 +123,3 @@ exports.handler = function (event, context) {
     var spaceGeek = new SpaceGeek();
     spaceGeek.execute(event, context);
 };
-
