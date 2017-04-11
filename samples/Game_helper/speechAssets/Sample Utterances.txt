@@ -1,0 +1,23 @@
+OverviewIntent How do i play
+OverviewIntent How do i play chess
+OverviewIntent give me an overview of chess
+OverviewIntent give me an overview
+OverviewIntent What are the rules
+OverviewIntent What are the rules for chess
+OverviewIntent What are the rules to chess
+
+SetupIntent how do i set up a chess game
+SetupIntent how do i set up chess
+SetupIntent how do i set up a chess board
+SetupIntent how do i set up a game of chess
+SetupIntent how do i set up
+
+GoalIntent how do i win a game
+GoalIntent how do i win a game of chess
+GoalIntent how do i win chess
+GoalIntent how do i win
+
+TipIntent can i have a chess tip please
+TipIntent give me a chess tip
+
+PieceIntent Tell me about {Piece}

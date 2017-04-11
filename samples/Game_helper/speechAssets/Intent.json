@@ -1,0 +1,35 @@
+{
+	"intents": [{
+		"intent": "AMAZON.HelpIntent",
+		"slots": []
+	},{
+		"intent": "AMAZON.StopIntent",
+		"slots": []
+	},   {
+		"intent": "AMAZON.CancelIntent",
+		"slots": []
+	},       
+               {
+      "intent": "OverviewIntent",
+      "slots": []
+    },{
+      
+      "intent": "SetupIntent",
+      "slots": []
+    },
+               {
+      "intent": "GoalIntent",
+      "slots": []
+    },{
+      "intent": "TipIntent",
+      "slots": []
+    },																							{	
+      
+      "intent": "PieceIntent",
+      "slots": [{
+                  "name": "Piece",
+				"type": "ChessPiece"
+                }]
+    }	
+	]		
+}
